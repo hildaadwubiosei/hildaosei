@@ -31,6 +31,8 @@ permalink: /about/
 </div>
 </div>
 
+
+<!--
 {% if site.data.grants %}
 <div class="section-card">
 <h3>Grants</h3>
@@ -41,6 +43,8 @@ permalink: /about/
 </ul>
 </div>
 {% endif %}
+-->
+
 
 {% if site.data.awards %}
 <div class="section-card">
@@ -53,6 +57,8 @@ permalink: /about/
 </div>
 {% endif %}
 
+
+<!--
 {% if site.data.people %}
 <div class="section-card">
 <h3>Students and Mentoring</h3>
@@ -62,7 +68,8 @@ permalink: /about/
 {% endfor %}
 </ul>
 </div>
-{% endif %}
+{% endif %} 
+
 
 {% if site.data.funders %}
 <div class="section-card">
@@ -70,7 +77,7 @@ permalink: /about/
 <div class="sponsor-logos" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-6);">
 {% for funder in site.data.funders %}
 <a href="{{ funder.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}" alt="Funder logo" style="max-height: 80px; max-width: 200px; border-radius: 0;" loading="lazy"></a>
-{% endfor %}
+{% endfor %} 
 </div>
 </div>
-{% endif %}
+{% endif %}-->

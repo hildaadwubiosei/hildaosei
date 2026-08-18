@@ -2,9 +2,9 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Hilda Adwubi Osei"
-title: "Student"
-institution: "Kwame Nkrumah University of Science and Technology"
-email: hildaosei109@gmail.com
+title: "Graduate"
+institution: "Kwame Nkrumah Univerity of Science and Technology"
+email: hilda.a.osei@Vanderbilt.edu
 photo: HILDA ADWUBI OSEI_GHANA_PHOTO.jpg  # place your photo in images/
 
 # ============================================================
@@ -17,7 +17,7 @@ links:
   orcid: "https://orcid.org/0009-0005-4873-7719"
   #twitter: ""
   linkedin: "https://www.linkedin.com/in/hilda-osei/"
-  cv: "papers\resume_hilda_adwubi_osei (5).pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  cv: "papers\resume_hilda_adwubi_osei(5).pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
@@ -38,9 +38,9 @@ analytics:
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+ # - name: talks
   - name: research
-  - name: software
+  #- name: software
  # - name: team
   - name: teaching
   - name: blogs

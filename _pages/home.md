@@ -25,7 +25,7 @@ AI safety and alignment research focuses on ensuring that increasingly capable m
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
+<img src="{{ site.url }}{{ site.baseurl }}\images\poster_presentation_knowledge.jpg" alt="Poster Presentation" loading="lazy">
 <div class="banner-caption">Knowledge and Compliance with Standard Precautions for Nosocomial Infection Prevention among Undergraduate Nursing and Midwifery Students at a Ghanaian University., <em>medRxiv</em> (2026)</div>
 </div>
 
