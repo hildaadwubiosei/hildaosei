@@ -77,7 +77,7 @@ plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
   last_name: Osei
-  first_name: [Hilda, A.]
+  first_name: [H.A.]
   style: citesty
   locale: en
   source: /assets/
