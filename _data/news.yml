@@ -1,17 +1,17 @@
 # News items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
-- date: 6 February, 1986
-  headline: "Appointed to the Rogers Commission investigating the Space Shuttle Challenger disaster"
+- date: 3 July, 2026
+  headline: "Selected for the Africa Climate Collaborative at the University of Ghana"
 
-- date: 1 January, 1980
-  headline: "National Medal of Science awarded by President Carter"
+- date: 26 June, 2026
+  headline: "Co-Authored Nosocomial Infections in Nursing Students"
 
-- date: 21 October, 1965
-  headline: "Awarded the Nobel Prize in Physics for contributions to quantum electrodynamics"
+- date: 31 March, 2026
+  headline: "Admitted to Vanderbilt University for Graduate Study in Computer Science"
 
-- date: 1 September, 1961
-  headline: "The Feynman Lectures on Physics begins publication"
+- date: 8 October, 2025
+  headline: "Expanded Research Interests into AI Safety, Climate Technology, and Public Policy"
 
 - date: 23 September, 2025
   headline: "Selected for the International We, The Youth Forum, Final Conference in South Korea"
