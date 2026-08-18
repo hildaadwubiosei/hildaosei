@@ -1,23 +1,23 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+name: "Hilda Adwubi Osei"
+title: "Student"
+institution: "Kwame Nkrumah University of Science and Technology"
+email: hildaosei109@gmail.com
+photo: HILDA ADWUBI OSEI_GHANA_PHOTO.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- delete any you don't use)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
-  orcid: ""
-  twitter: ""
-  linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  google_scholar: "https://scholar.google.com/citations?hl=en&authuser=1&user=_QurfuYAAAAJ"
+  github: "https://github.com/hildaadwubiosei"
+  #researchgate: "https://www.researchgate.net/"
+  orcid: "https://orcid.org/0009-0005-4873-7719"
+  #twitter: ""
+  linkedin: "https://www.linkedin.com/in/hilda-osei/"
+  cv: "papers\resume_hilda_adwubi_osei (5).pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
@@ -41,7 +41,7 @@ nav_pages:
   - name: talks
   - name: research
   - name: software
-  - name: team
+ # - name: team
   - name: teaching
   - name: blogs
 
@@ -76,8 +76,8 @@ kramdown:
 plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Osei
+  first_name: [Hilda, A.]
   style: citesty
   locale: en
   source: /assets/
