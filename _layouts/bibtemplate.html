@@ -23,8 +23,10 @@
     {% endif %}
 
     {% if entry.doi %}
-      {% if entry.type == 'unpublished' %}
+      {% if entry.type == 'unpublished' and entry.note contains 'arXiv' %}
       <a href="{{ entry.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank" class="btn-pill btn-arxiv">arXiv</a>
+      {% elsif entry.type == 'unpublished' and entry.note contains 'medRxiv' %}
+      <a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank" class="btn-pill btn-arxiv">medRxiv</a>
       {% else %}
       <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank" class="btn-pill btn-doi">DOI</a>
       {% endif %}
