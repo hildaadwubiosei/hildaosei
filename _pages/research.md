@@ -10,51 +10,37 @@ permalink: /research/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/qed.svg" class="research-thumb" alt="Feynman diagram">
+<img src="{{ site.url }}{{ site.baseurl }}/images/waste management.jpg" class="research-thumb" alt="Feynman diagram">
 <div class="research-body">
-<h4 class="research-title">Quantum Electrodynamics</h4>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h4 class="research-title">Waste Management in Atonsu, Kumasi</h4>
+<p class="research-desc">A machine-learning-augmented preprint built on an original 2022 field study of improper waste disposal and segregation in Atonsu, Kumasi. The work combines a Random Forest model predicting illness outcomes from disposal method and demographics with a MobileNetV2 image classifier for automated waste sorting, trained and evaluated on real survey and image data. Code and notebooks are published on GitHub.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/superfluidity.svg" class="research-thumb" alt="Superfluid helium">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Farmdirect logo.png" class="research-thumb" alt="Superfluid helium">
 <div class="research-body">
-<h4 class="research-title">Superfluidity</h4>
-<p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
+<h4 class="research-title">FarmDirect</h4>
+<p class="research-desc">A data-driven, farmer-to-buyer marketplace built to cut out middlemen and give farmers fairer prices. As founder and lead developer, I'm building a pricing and optimization model on real Ministry of Food and Agriculture (MoFA/SRID) commodity price data, alongside a multi-agent, game-theoretic simulation of market behavior. The project is developed in collaboration with researchers at the Ghana Atomic Energy Commission on supply-chain and environmental data integration.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/partons.svg" class="research-thumb" alt="Parton model">
+<img src="{{ site.url }}{{ site.baseurl }}/images/poster_presentation_knowledge.jpg" class="research-thumb" alt="Parton model">
 <div class="research-body">
-<h4 class="research-title">Parton Model</h4>
-<p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
+<h4 class="research-title">Nosocomial Infection Prevention</h4>
+<p class="research-desc">A cross-sectional study assessing knowledge of nosocomial infections and compliance with standard precautions among third-year nursing and midwifery students at KNUST, Ghana. Co-authored with researchers from KNUST's Department of Nursing, published as a preprint on medRxiv, with findings also presented as a poster at Korle Bu Teaching Hospital.</p>
 </div>
 </div>
 
+
 <div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/quantum-computing.svg" class="research-thumb" alt="Quantum circuit">
+<img src="{{ site.url }}{{ site.baseurl }}/images/ai alignment.jpg" class="research-thumb" alt="Atomic manipulation">
 <div class="research-body">
-<h4 class="research-title">Quantum Computing</h4>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
+<h4 class="research-title">AI Safety & Alignment</h4>
+<p class="research-desc">My emerging research direction, motivated by the applied and theoretical work above: how to design algorithmic systems that remain reliable under uncertainty, human behavior, and fairness constraints.</p>
 </div>
 </div>
 
-<div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/nanotechnology.svg" class="research-thumb" alt="Atomic manipulation">
-<div class="research-body">
-<h4 class="research-title">Nanotechnology</h4>
-<p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
-</div>
-</div>
-
-<div class="research-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/weak-interactions.svg" class="research-thumb" alt="Weak interaction diagram">
-<div class="research-body">
-<h4 class="research-title">Weak Interactions</h4>
-<p class="research-desc">Development of the V-A theory of the weak interaction with Murray Gell-Mann. This theory correctly predicted the structure of weak decays and was later incorporated into the electroweak unification by Weinberg, Salam, and Glashow.</p>
-</div>
-</div>
 
 </div>
