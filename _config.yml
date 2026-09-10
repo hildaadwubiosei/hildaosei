@@ -17,7 +17,7 @@ links:
   orcid: "https://orcid.org/0009-0005-4873-7719"
   #twitter: ""
   linkedin: "https://www.linkedin.com/in/hilda-osei/"
-  cv: r"C:\Users\user\Desktop\hildaosei\hildaosei\papers\Hilda_Adwubi_Osei_CV.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  cv: "papers/Hilda_Adwubi_Osei_CV.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
