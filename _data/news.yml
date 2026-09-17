@@ -1,17 +1,21 @@
 # News items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
+
+- date: 8 September, 2026
+  headline: "Released FarmDirect preprint on data-driven pricing and risk-adjusted allocation in Ghanaian tomato markets"
+
+- date: 26 August, 2026
+  headline: "Released preprint on machine learning for health-risk prediction and computer vision-based waste sorting in Ghana"
+
+- date: 8 July, 2026
+  headline: "Co-authored research on infection prevention among nursing and midwifery students in Ghana"
+
 - date: 3 July, 2026
   headline: "Selected for the Africa Climate Collaborative at the University of Ghana"
 
-- date: 26 June, 2026
-  headline: "Co-Authored Nosocomial Infections in Nursing Students"
-
 - date: 31 March, 2026
   headline: "Admitted to Vanderbilt University for Graduate Study in Computer Science"
-
-- date: 8 October, 2025
-  headline: "Expanded Research Interests into AI Safety, Climate Technology, and Public Policy"
 
 - date: 23 September, 2025
   headline: "Selected for the International We, The Youth Forum, Final Conference in South Korea"

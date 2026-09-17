@@ -9,15 +9,15 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">AI Safety</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Alignment Research</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Agentic Systems</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Applied ML for Development</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Optimization Theory</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computer and Society</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Machine Learning</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Optimization and Decision Making</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Fairness & Responsible AI</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">AI and Society</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">AI Safety & Robustness</a>
 </div>
 
-AI safety and alignment research focuses on ensuring that increasingly capable machine learning systems remain reliable, controllable, and beneficial as they are deployed in the real world. This work spans theoretical questions like optimization dynamics, robustness, interpretability, and applied ones, such as how AI systems behave when embedded in complex human systems like markets, healthcare, and agriculture. Research in this field is central to making sure advances in AI translate into genuine, safe benefit rather than unpredictable risk.
+My research lies at the intersection of machine learning, optimization, fairness, and AI and society. I am interested in building reliable decision-making systems that can learn from data while accounting for uncertainty, risk, and the people affected by algorithmic decisions. My current work explores these questions through applications in agricultural markets, public health, and resource allocation. I am particularly interested in how we can design AI systems that are not only effective, but also fair, robust, and responsible in real-world settings. I am also exploring AI safety as an emerging direction of my research.
+
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title"><i class="fa-solid fa-award callout-icon"></i>International "We, The Youth" Forum, 2025 </div>
@@ -31,6 +31,10 @@ AI safety and alignment research focuses on ensuring that increasingly capable m
 
 ### About me
 
-I am a computer scientist and researcher based in Accra, Ghana, working at the intersection of applied machine learning and AI safety. I received my Bachelor's degree in Industrial Engineering from Kwame Nkrumah University of Science and Technology in 2024, and in 2025 completed the National Software Development Summer School (University Service of Canada, in partnership with CTVET), where I ranked among the top graduates and was selected as one of nine finalists to pitch before national judges. I now mentor the program's incoming cohort.
+I am a researcher and software developer from Ghana with a growing focus on machine learning and AI research. My journey into research began with building software to solve practical problems, but I became increasingly interested in the decisions behind these systems: how data is used, how algorithms make recommendations, and how those decisions affect people.
 
-I founded FarmDirect, a farmer-to-buyer marketplace project that combines real agricultural data with machine learning models, which I am developing further as part of my research portfolio.
+My current research includes work on agricultural markets, where I use machine learning, market analysis, and optimization to study pricing, risk, and resource allocation for Ghanaian farmers. I have also worked on machine learning for health-risk prediction and computer vision-based waste sorting, giving me experience applying AI to real-world problems with limited and imperfect data.
+
+These experiences have led me toward broader questions about fairness, reliable decision-making, and the social impact of AI. I am continuing to develop my research interests in machine learning and optimization while exploring how AI systems can be made more reliable, fair, and safe as they are deployed in increasingly complex real-world environments.
+
+
