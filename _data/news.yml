@@ -2,6 +2,15 @@
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
 
+- date: 20 October, 2026
+  headline: 'Oral presentation for Beyond Boundaries: Interdisciplinary Innovation in Health Research and Practice Virtual Conference, hosted by Johns Hopkins School of Nursing'
+
+- date: 16 October, 2026
+  headline: "Released preprint on Specification Gaming and a Constrained Reinforcement Learning Mitigation in a Cleaning Gridworld"
+
+- date: 14 October, 2026
+  headline: "Released preprint on Fairness under Prediction Error in Predict-then-Optimize Pipelines"
+
 - date: 8 September, 2026
   headline: "Released FarmDirect preprint on data-driven pricing and risk-adjusted allocation in Ghanaian tomato markets"
 
