@@ -1,8 +1,27 @@
+@unpublished{osei2026specgaming,
+    Author = {H. A. Osei},
+    Title = {Specification Gaming and a Constrained Reinforcement Learning Mitigation in a Cleaning Gridworld},
+    Note = {arXiv:2610.22152 [cs.LG], cross-listed cs.AI},
+    doi = {2610.22152},
+    file = {SPECIFICATION_GAMING_CRL.pdf},
+    abstract = {Reinforcement learning agents optimize exactly the reward signal they are given, which can diverge sharply from an intended true objective when that signal is only a proxy for it; this failure mode is known as specification gaming. Existing evidence for this failure mode is largely observational, with comparatively few demonstrations pairing a controlled, deliberately constructed proxy/true gap with a mitigation that carries a verifiable guarantee rather than only an empirical improvement. We construct a minimal gridworld in which a cleaning-robot agent can either genuinely remove dirt or conceal it from a cheap sensor, and show that a standard deep Q-network trained only on the sensor's proxy reward converges to a policy that games it completely, reaching near-maximal proxy reward while never achieving the true objective. We then introduce a constrained reinforcement learning fix, penalizing the specific behaviors through which the agent exploits the gap, and show that it eliminates the gaming behavior from the final policy while substantially recovering true-objective performance. We further derive and empirically verify an exact accounting identity relating the proxy reward, true reward, and our cost signal for this environment, showing that the cost signal measures the proxy/true gap exactly rather than merely tracking it, and yields a deterministic guarantee under a hard-constrained variant of the method.},
+}
+
+
+@unpublished{osei2026fairness,
+    Author = {H. A. Osei},
+    Title = {Fairness Under Prediction Error in Predict-Then-Optimize Pipelines},
+    Note = {arXiv:2610.18593 [cs.LG], cross-listed cs.CY},
+    doi = {2610.18593},
+    file = {FAIRNESS_PREDICT_OPTIMIZE.pdf},
+    abstract = {Fairness constraints in predict-then-optimize pipelines are necessarily enforced on predicted outcomes $\hat{y}$, since true outcomes $y$ are unobserved at decision time. We study whether a demographic parity constraint enforced this way continues to hold against $y$, and how the resulting violation scales with prediction error. Using a budget-constrained allocation problem solved as a linear program, we show empirically that the true-outcome fairness gap grows with prediction error $\sigma$ and saturates, well fit by $c(1-e^{-\sigma/\tau})$ with $c = 0.1545 \pm 0.0103$ and $\tau = 3.9045 \pm 0.3745$; its mean is invariant to sample size while its variance decays at the standard $O(1/\sqrt{n})$ rate. We derive a two-part theoretical bound: a closed-form local sensitivity result showing the gap's first-order response to prediction error depends on only two individuals per group, validated against the solver to within three significant figures; and a universal, error-independent ceiling following from the boundedness of the decision variable, confirmed consistent with but looser than the empirical saturation level. On US Census income data, enforcing demographic parity on a trained predictor's output reduces an unconstrained disparity in true income to roughly one-third of its original size, leaving 34.4\% $\pm$ 3.3\% (California) and 35.7\% $\pm$ 1.8\% (Texas) of the disparity intact and undetectable from the predictions alone -- consistent not only in mechanism but in approximate magnitude across two states with different demographics and income distributions, and stable across ten independent train/test splits in each. A fairness constraint that appears fully satisfied at decision time can mask a substantial, systematic violation of the outcome it was meant to protect.},
+}
+
+
 @unpublished{osei2026farmdirect,
     Author = {H. A. Osei},
     Title = {FarmDirect: Data-Driven Pricing and Risk-Adjusted Allocation for Ghanaian Tomato Markets},
-    Note = {Submitted to arXiv; on hold pending moderation (cross-disciplinary classification)},
-    doi = {},
+    Note = {On researchgate, ongoing research},
     file = {FarmDirect_Research.pdf},
     abstract = {This study presents four connected empirical components, price prediction, market clustering, risk-adjusted allocation, and an agent-based simulation of farmer selling behavior, built on the 2025 MoFA/SRID government price data for Ghanaian tomato markets. Observable features such as region, market, and time of season predict prices well enough to beat a naive last-known-price baseline, though the useful signal is overwhelmingly seasonal. Markets cluster into distinct price-behavior regimes in which price level and price volatility are largely independent properties, a finding that is corroborated independently by the price-prediction model's own residual errors. Building on these two results, a Markowitz-style risk-adjusted allocation model concentrates supply on a small number of markets that jointly balance expected revenue against measured risk. Finally, an agent-based simulation tests whether eliminating a middleman actually benefits farmers, finding that direct selling outperforms selling through a middleman once farmers have only modest, better-than-random market information, though this benefit is not distributed evenly across market types: farmers selling into more volatile markets bear substantially higher revenue variance even under perfect information. The analysis links prediction, clustering, allocation, and simulation into a connected analytical pipeline.},
 }

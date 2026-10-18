@@ -16,7 +16,9 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">AI Safety & Robustness</a>
 </div>
 
-My research lies at the intersection of machine learning, optimization, fairness, and AI and society. I am interested in building reliable decision-making systems that can learn from data while accounting for uncertainty, risk, and the people affected by algorithmic decisions. My current work explores these questions through applications in agricultural markets, public health, and resource allocation. I am particularly interested in how we can design AI systems that are not only effective, but also fair, robust, and responsible in real-world settings. I am also exploring AI safety as an emerging direction of my research.
+
+My research lies at the intersection of machine learning, optimization, fairness, and AI safety. I study a question that runs through both areas: when a decision-making system’s guarantee — that it is fair, or that it has learned the intended objective — is enforced only on an imperfect signal (a prediction, a reward signal, limited information), does that guarantee survive contact with the true outcome it was meant to protect? I study this through AI safety and alignment and through algorithmic fairness in resource allocation, grounded in real applications in agricultural markets, public health, and environmental systems in Ghana. My broader interest is in building decision-making systems that remain reliable, fair, and safe as they move from idealized guarantees to deployment in the real world.
+
 
 
 <div class="callout callout-success" markdown="0">
@@ -31,10 +33,11 @@ My research lies at the intersection of machine learning, optimization, fairness
 
 ### About me
 
-I am a researcher and software developer from Ghana with a growing focus on machine learning and AI research. My journey into research began with building software to solve practical problems, but I became increasingly interested in the decisions behind these systems: how data is used, how algorithms make recommendations, and how those decisions affect people.
+I am a researcher and software developer from Ghana working at the intersection of machine learning, optimization, and AI safety. My path into research started with building software to solve practical problems, but I became increasingly interested in the decisions behind these systems: how predictions are used, what guarantees are made about them, and whether those guarantees actually hold once a system meets the real world.
 
-My current research includes work on agricultural markets, where I use machine learning, market analysis, and optimization to study pricing, risk, and resource allocation for Ghanaian farmers. I have also worked on machine learning for health-risk prediction and computer vision-based waste sorting, giving me experience applying AI to real-world problems with limited and imperfect data.
+That question now runs through my research. In one line of work, I study how a reinforcement learning agent can satisfy a reward signal completely while failing the true objective it was meant to represent, and derive a constrained learning method with a provable guarantee against this failure. In another, I study the same kind of gap in a different setting: whether a fairness constraint enforced on a model’s prediction still holds once the true outcome is observed, deriving a theoretical bound and confirming the effect on real US Census income data.
 
-These experiences have led me toward broader questions about fairness, reliable decision-making, and the social impact of AI. I am continuing to develop my research interests in machine learning and optimization while exploring how AI systems can be made more reliable, fair, and safe as they are deployed in increasingly complex real-world environments.
+I ground this work in real, often imperfect data. Through FarmDirect, I study pricing, risk, and the economics of cutting out middlemen in Ghanaian agricultural markets, combining predictive modeling, risk-adjusted optimization, and agent-based simulation on real government price data. I have also worked on machine learning for health-risk prediction and computer-vision-based waste sorting in Ghana, and on infection-prevention research with colleagues in nursing and public health.
 
+Across these projects, my aim is the same: to build decision-making systems whose guarantees aren’t just technically correct, but actually trustworthy once they leave the page and meet real outcomes, real people, and real constraints.
 
